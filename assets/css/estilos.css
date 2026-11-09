@@ -1,0 +1,261 @@
+/* Estilos da minha página web */
+
+*{
+    margin: 0;
+    padding: 0
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+/* Geral */
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/* Cabeçalho do site */
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233f;
+}
+
+/* Menu de navegação */
+
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    background-color: #06345d;
+}
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: #7cc2ff;
+    transition: background-color 0.3s ease;   
+
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;
+    background-color: #1190ff;
+    padding: 20px;
+
+}
+/* Formatação do class="container-quem-somos" */
+.container-quem-somos {
+    background-color: #05192a;
+    overflow: auto;
+}
+.container-quem-somos .servico {
+    margin: 60px auto;
+    background-color: #061f35;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.container-quem-somos .servico .icone {
+    margin-bottom: 20px;
+}
+
+.container-quem-somos .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: #81c4ff;       
+}
+.container-quem-somos .servico-texto-realce {
+    color: white;
+    font-weight: bold;
+}
+
+/* Formatação de estilos nos botões */
+.container-servicos-contatos {
+    background-color: #082946;
+    margin-top: 40px;
+    padding: 80px;
+    text-align: center;
+}
+
+.botoes-servicos-contatos a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008eb9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 50px; 
+}
+.botoes-servicos-contatos a:hover {
+    background-color: white;
+    color: black;
+}
+.container-servicos {
+    background-color: #05192a;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+.container-servicos h3{
+    color: #2097ff;
+    padding: 20px 0;
+}
+.container-servicos article{
+    width: 40%;
+    margin: auto;    
+}
+.container-servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color:white ;
+
+}
+/* Container Contatos */
+.container-contatos {
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.container-contatos h1 {
+    font-size: 3em; /*Cada "em" Equivale a 16px*/
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Formatação do formulário de contato */
+.container-contatos .contatos {
+    display:block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
+
+/* Aqui começa o estilo para o formulário */
+.form-contato {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.grupo-campo {
+    margin-bottom: 20px;
+    }
+.grupo-campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+.btn-enviar {
+    background-color: #0056b3;
+    color: none;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #004494;
+}
+
+/* Mensagem de erro/sucesso do Javascript */
+.mensagem-alerta {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: none;
+}
+.alerta-erro {color: #d9534f; display: block;}
+.alerta-sucesso { color: #5cb85c; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
+footer{
+    text-align: center;
+    padding: 80px;
+    background-color: #02111f;
+    color: gray;
+}
+
+
+
